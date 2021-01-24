@@ -4,22 +4,21 @@ import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _b0624040 = () => interopDefault(import('..\\pages\\anounces.vue' /* webpackChunkName: "pages/anounces" */))
-const _32409fac = () => interopDefault(import('..\\pages\\discounts\\index.vue' /* webpackChunkName: "pages/discounts/index" */))
-const _91a44f52 = () => interopDefault(import('..\\pages\\forget.vue' /* webpackChunkName: "pages/forget" */))
-const _141e30ef = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _7d5ababa = () => interopDefault(import('..\\pages\\main.vue' /* webpackChunkName: "pages/main" */))
-const _58d80fe8 = () => interopDefault(import('..\\pages\\messages\\index.vue' /* webpackChunkName: "pages/messages/index" */))
-const _fefaf0a2 = () => interopDefault(import('..\\pages\\profile.vue' /* webpackChunkName: "pages/profile" */))
-const _b068665e = () => interopDefault(import('..\\pages\\quotations.vue' /* webpackChunkName: "pages/quotations" */))
-const _389ce4e6 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
-const _3302ded1 = () => interopDefault(import('..\\pages\\registersup.vue' /* webpackChunkName: "pages/registersup" */))
-const _0bdd217e = () => interopDefault(import('..\\pages\\requisitions.vue' /* webpackChunkName: "pages/requisitions" */))
-const _3f71bc35 = () => interopDefault(import('..\\pages\\suppliers\\index.vue' /* webpackChunkName: "pages/suppliers/index" */))
-const _29f22730 = () => interopDefault(import('..\\pages\\discounts\\_id\\index.vue' /* webpackChunkName: "pages/discounts/_id/index" */))
-const _910d06e4 = () => interopDefault(import('..\\pages\\messages\\_id\\index.vue' /* webpackChunkName: "pages/messages/_id/index" */))
-const _2ce62bf6 = () => interopDefault(import('..\\pages\\suppliers\\_id\\index.vue' /* webpackChunkName: "pages/suppliers/_id/index" */))
-const _4a768dd8 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _2f8c807a = () => interopDefault(import('..\\pages\\anounces.vue' /* webpackChunkName: "pages/anounces" */))
+const _510f63fe = () => interopDefault(import('..\\pages\\discounts.vue' /* webpackChunkName: "pages/discounts" */))
+const _3b2ed771 = () => interopDefault(import('..\\pages\\forget.vue' /* webpackChunkName: "pages/forget" */))
+const _325832d6 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _8046bf86 = () => interopDefault(import('..\\pages\\main.vue' /* webpackChunkName: "pages/main" */))
+const _7291539c = () => interopDefault(import('..\\pages\\messages\\index.vue' /* webpackChunkName: "pages/messages/index" */))
+const _7ca16bd5 = () => interopDefault(import('..\\pages\\profile.vue' /* webpackChunkName: "pages/profile" */))
+const _36a3aeeb = () => interopDefault(import('..\\pages\\quotations.vue' /* webpackChunkName: "pages/quotations" */))
+const _6b6f2e27 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
+const _7f273ff7 = () => interopDefault(import('..\\pages\\registersup.vue' /* webpackChunkName: "pages/registersup" */))
+const _327932db = () => interopDefault(import('..\\pages\\requisitions.vue' /* webpackChunkName: "pages/requisitions" */))
+const _9e8bba62 = () => interopDefault(import('..\\pages\\suppliers\\index.vue' /* webpackChunkName: "pages/suppliers/index" */))
+const _2acdf3b0 = () => interopDefault(import('..\\pages\\messages\\_id\\index.vue' /* webpackChunkName: "pages/messages/_id/index" */))
+const _1a5e93ab = () => interopDefault(import('..\\pages\\suppliers\\_id\\index.vue' /* webpackChunkName: "pages/suppliers/_id/index" */))
+const _1d2c437e = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -39,67 +38,63 @@ export const routerOptions = {
 
   routes: [{
     path: "/anounces",
-    component: _b0624040,
+    component: _2f8c807a,
     name: "anounces"
   }, {
     path: "/discounts",
-    component: _32409fac,
+    component: _510f63fe,
     name: "discounts"
   }, {
     path: "/forget",
-    component: _91a44f52,
+    component: _3b2ed771,
     name: "forget"
   }, {
     path: "/login",
-    component: _141e30ef,
+    component: _325832d6,
     name: "login"
   }, {
     path: "/main",
-    component: _7d5ababa,
+    component: _8046bf86,
     name: "main"
   }, {
     path: "/messages",
-    component: _58d80fe8,
+    component: _7291539c,
     name: "messages"
   }, {
     path: "/profile",
-    component: _fefaf0a2,
+    component: _7ca16bd5,
     name: "profile"
   }, {
     path: "/quotations",
-    component: _b068665e,
+    component: _36a3aeeb,
     name: "quotations"
   }, {
     path: "/register",
-    component: _389ce4e6,
+    component: _6b6f2e27,
     name: "register"
   }, {
     path: "/registersup",
-    component: _3302ded1,
+    component: _7f273ff7,
     name: "registersup"
   }, {
     path: "/requisitions",
-    component: _0bdd217e,
+    component: _327932db,
     name: "requisitions"
   }, {
     path: "/suppliers",
-    component: _3f71bc35,
+    component: _9e8bba62,
     name: "suppliers"
   }, {
-    path: "/discounts/:id",
-    component: _29f22730,
-    name: "discounts-id"
-  }, {
     path: "/messages/:id",
-    component: _910d06e4,
+    component: _2acdf3b0,
     name: "messages-id"
   }, {
     path: "/suppliers/:id",
-    component: _2ce62bf6,
+    component: _1a5e93ab,
     name: "suppliers-id"
   }, {
     path: "/",
-    component: _4a768dd8,
+    component: _1d2c437e,
     name: "index"
   }],
 

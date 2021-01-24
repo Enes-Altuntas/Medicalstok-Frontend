@@ -22,9 +22,20 @@ export default {
   data() {
     return {}
   },
+
+  mounted() {
+    this.getMain()
+  },
+
   computed: {
     ...mapGetters({
       getOverlayStatus: 'getOverlayStatus',
+    }),
+  },
+
+  methods: {
+    ...mapActions({
+      getMain: 'main',
     }),
   },
 }

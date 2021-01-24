@@ -19,6 +19,7 @@ let store = {};
   // Enforce store modules
   store.modules = store.modules || {}
 
+  resolveStoreModules(require('..\\store\\suppliers\\index.js'), 'suppliers/index.js')
   resolveStoreModules(require('..\\store\\requisitions\\index.js'), 'requisitions/index.js')
 
   // If the environment supports hot reloading...
@@ -27,6 +28,7 @@ let store = {};
     // Whenever any Vuex module is updated...
     module.hot.accept([
       '..\\store\\index.js',
+      '..\\store\\suppliers\\index.js',
       '..\\store\\requisitions\\index.js',
     ], () => {
       // Update `root.modules` with the latest definitions.

@@ -1,8 +1,9 @@
 <template>
   <div class="hero">
     <h1 class="hero__brand">Medicalstok</h1>
-    <h2 class="hero__desc">
-      Medicalstok'a hoş geldiniz , {{ UserInfo.name }} {{ UserInfo.title }}
+    <h2 class="hero__desc" v-if="user_info">
+      Medicalstok'a hoş geldiniz , {{ user_info.name }}
+      {{ user_info.title }}
     </h2>
   </div>
 </template>
@@ -11,28 +12,14 @@
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 export default {
   data() {
-    return {
-      UserInfo: {
-        name: 'Enes',
-        surname: 'Altuntaş',
-        mail: 'enesaltuntas92@gmail.com',
-        phone: '+90 553 673 92 61',
-        title: 'Bey',
-      },
-    }
+    return {}
   },
 
-  mounted() {
-    this.getMain()
+  computed: {
+    ...mapState(['user_info']),
   },
 
-  computed: {},
-
-  methods: {
-    ...mapActions({
-      getMain: 'main',
-    }),
-  },
+  methods: {},
 }
 </script>
 
@@ -47,25 +34,25 @@ export default {
   height: 100%;
   padding: 17em 0;
   background-image: url('../static/article.jpg'),
-    radial-gradient(rgb(110, 110, 110), rgb(37, 37, 37));
+    radial-gradient(rgb(180, 180, 180), rgb(255, 255, 255));
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-attachment: fixed;
 
   &__brand {
-    color: azure;
+    color: $blue;
     font-family: 'Oswald', serif;
     font-size: 7em;
-    text-shadow: 5px 5px 10px $blue;
+    text-shadow: 5px 5px 10px rgb(88, 88, 88);
   }
 
   &__desc {
-    color: azure;
+    color: $green;
     font-family: 'Oswald', cursive;
     font-size: 40px;
     margin-bottom: 1em;
-    text-shadow: 5px 5px 10px $green;
+    text-shadow: 5px 5px 10px rgb(88, 88, 88);
   }
 }
 </style>

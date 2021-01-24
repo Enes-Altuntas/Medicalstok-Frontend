@@ -1,5 +1,5 @@
 <template>
-  <div>Kampanyalarım</div>
+  <div></div>
 </template>
 
 <script>

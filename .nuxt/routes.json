@@ -2,113 +2,91 @@
   {
     "name": "anounces",
     "path": "/anounces",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\anounces.vue",
-    "chunkName": "pages/anounces",
-    "_name": "_b0624040"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\anounces.vue",
+    "chunkName": "pages/anounces"
   },
   {
     "name": "discounts",
     "path": "/discounts",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\discounts\\\\index.vue",
-    "chunkName": "pages/discounts/index",
-    "_name": "_32409fac"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\discounts.vue",
+    "chunkName": "pages/discounts"
   },
   {
     "name": "forget",
     "path": "/forget",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\forget.vue",
-    "chunkName": "pages/forget",
-    "_name": "_91a44f52"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\forget.vue",
+    "chunkName": "pages/forget"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_141e30ef"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
   },
   {
     "name": "main",
     "path": "/main",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\main.vue",
-    "chunkName": "pages/main",
-    "_name": "_7d5ababa"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\main.vue",
+    "chunkName": "pages/main"
   },
   {
     "name": "messages",
     "path": "/messages",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\messages\\\\index.vue",
-    "chunkName": "pages/messages/index",
-    "_name": "_58d80fe8"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\messages\\\\index.vue",
+    "chunkName": "pages/messages/index"
   },
   {
     "name": "profile",
     "path": "/profile",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\profile.vue",
-    "chunkName": "pages/profile",
-    "_name": "_fefaf0a2"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\profile.vue",
+    "chunkName": "pages/profile"
   },
   {
     "name": "quotations",
     "path": "/quotations",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\quotations.vue",
-    "chunkName": "pages/quotations",
-    "_name": "_b068665e"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\quotations.vue",
+    "chunkName": "pages/quotations"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\register.vue",
-    "chunkName": "pages/register",
-    "_name": "_389ce4e6"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\register.vue",
+    "chunkName": "pages/register"
   },
   {
     "name": "registersup",
     "path": "/registersup",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\registersup.vue",
-    "chunkName": "pages/registersup",
-    "_name": "_3302ded1"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\registersup.vue",
+    "chunkName": "pages/registersup"
   },
   {
     "name": "requisitions",
     "path": "/requisitions",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\requisitions.vue",
-    "chunkName": "pages/requisitions",
-    "_name": "_0bdd217e"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\requisitions.vue",
+    "chunkName": "pages/requisitions"
   },
   {
     "name": "suppliers",
     "path": "/suppliers",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\suppliers\\\\index.vue",
-    "chunkName": "pages/suppliers/index",
-    "_name": "_3f71bc35"
-  },
-  {
-    "name": "discounts-id",
-    "path": "/discounts/:id",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\discounts\\\\_id\\\\index.vue",
-    "chunkName": "pages/discounts/_id/index",
-    "_name": "_29f22730"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\suppliers\\\\index.vue",
+    "chunkName": "pages/suppliers/index"
   },
   {
     "name": "messages-id",
     "path": "/messages/:id",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\messages\\\\_id\\\\index.vue",
-    "chunkName": "pages/messages/_id/index",
-    "_name": "_910d06e4"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\messages\\\\_id\\\\index.vue",
+    "chunkName": "pages/messages/_id/index"
   },
   {
     "name": "suppliers-id",
     "path": "/suppliers/:id",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\suppliers\\\\_id\\\\index.vue",
-    "chunkName": "pages/suppliers/_id/index",
-    "_name": "_2ce62bf6"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\suppliers\\\\_id\\\\index.vue",
+    "chunkName": "pages/suppliers/_id/index"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\client\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_4a768dd8"
+    "component": "C:\\\\Users\\\\enesa\\\\Desktop\\\\Projects\\\\Medicalstok\\\\Medicalstok-Frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

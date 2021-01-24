@@ -54,8 +54,8 @@ export default {
       nameRules: [
         (v) => !!v || 'Kullanıcı Adı gereklidir !',
         (v) =>
-          (v && v.length >= 10) ||
-          'Kullanıcı adı 10 karakterden fazla olmalıdır !',
+          (v && v.length >= 5) ||
+          'Kullanıcı adı 5 karakterden fazla olmalıdır !',
       ],
       passRules: [
         (v) => !!v || 'Şifre gereklidir',

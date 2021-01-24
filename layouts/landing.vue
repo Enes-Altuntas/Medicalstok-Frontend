@@ -16,6 +16,7 @@ export default {
   data() {
     return {}
   },
+
   computed: {
     ...mapGetters({
       getOverlayStatus: 'getOverlayStatus',
