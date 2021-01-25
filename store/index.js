@@ -59,14 +59,12 @@ export const actions = {
                 this.$router.push('/login');
                 localStorage.removeItem('refresh_token')
                 localStorage.removeItem('access_token')
-                if (error.response.status === 403) {
-                    this.$toast.show(error.response.data, {
-                        theme: "bubble",
-                        type: 'error',
-                        position: "bottom-right",
-                        duration: 5000,
-                    })
-                }
+                this.$toast.show(error.response.data, {
+                    theme: "bubble",
+                    type: 'error',
+                    position: "bottom-right",
+                    duration: 5000,
+                })
             })
         commit('setOverlay', false)
     },

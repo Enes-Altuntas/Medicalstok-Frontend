@@ -33,8 +33,12 @@ export default {
   text-align: center;
   height: 100%;
   padding: 17em 0;
-  background-image: url('../static/article.jpg'),
-    radial-gradient(rgb(180, 180, 180), rgb(255, 255, 255));
+  background: radial-gradient(
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 40%,
+    rgb(216, 216, 216) 70%,
+    rgb(141, 141, 141) 100%
+  );
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;

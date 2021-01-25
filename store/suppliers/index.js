@@ -19,11 +19,13 @@ export const actions = {
         commit('setOverlay', true, { root: true })
         await this.$axios({ method: 'post', url: '/api/get_all_suppliers', headers: { 'Authorization': 'Bearer ' + localStorage.getItem('access_token') } })
             .then(res => {
+                debugger
                 if (res.status === 200) {
                     commit('setSuppliers', res.data.suppliers)
                 }
             })
             .catch(error => {
+                debugger
                 this.$router.push('/login');
                 localStorage.removeItem('refresh_token')
                 localStorage.removeItem('access_token')

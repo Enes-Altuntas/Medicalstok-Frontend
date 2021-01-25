@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <div v-if="suppliers">
       <v-data-table
         :headers="supplierHeaders"
@@ -149,4 +149,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.main {
+  height: 100%;
+  background: radial-gradient(
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 40%,
+    rgb(216, 216, 216) 70%,
+    rgb(141, 141, 141) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
 </style>
